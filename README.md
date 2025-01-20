@@ -1,33 +1,33 @@
 1. Steps to run the project locally.
-   #Backend
-   -> Clone the Repository:
-   git clone https://github.com/your-username/portfolio-backend.git
+#Backend
+-> Clone the Repository:
+git clone https://github.com/your-username/portfolio-backend.git
    
-   -> Navigate to Backend Directory:
-   cd portfolio-backend
+-> Navigate to Backend Directory:
+cd portfolio-backend
 
-   -> Configure Database:
+-> Configure Database:
   Create a MySQL database (e.g., portfolio_db).
   Update the application.properties file with your database credentials:
   spring.datasource.url=jdbc:mysql://localhost:3306/portfolio_db
   spring.datasource.username=your-username
   spring.datasource.password=your-password
 
-   -> Run the Backend:
+-> Run the Backend:
   mvn spring-boot:run
 
-  #Frontend
-   -> Clone the Repository:
+#Frontend
+-> Clone the Repository:
    git clone https://github.com/your-username/portfolio-frontend.git
 
-   -> Navigate to Backend Directory:
+-> Navigate to Backend Directory:
    cd portfolio-frontend
 
-   -> Install Dependencies and Start The Frontend:
+-> Install Dependencies and Start The Frontend:
    npm install 
    npm start
 
-   -> Access the Application:
+-> Access the Application:
     Backend API: http://localhost:8080/api/stocks
     Frontend: http://localhost:3001
 
